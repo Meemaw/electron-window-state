@@ -1,4 +1,4 @@
-import Electron from 'electron'
+import * as Electron from 'electron'
 
 export interface Options {
     /** The height that should be returned if no file exists yet. Defaults to `600`. */
